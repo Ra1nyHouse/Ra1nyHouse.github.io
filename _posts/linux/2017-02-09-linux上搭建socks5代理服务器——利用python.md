@@ -31,7 +31,7 @@ else
     if test $1 = 'start'
     then
         echo 'start server'
-        sudo ssserver -p 222 -k AaA111111 -m aes-256-cfb --user nobody -d start
+        sudo ssserver -p 222 -k password -m aes-256-cfb --user nobody -d start
     else
         echo 'stop server'
         sudo ssserver -d stop

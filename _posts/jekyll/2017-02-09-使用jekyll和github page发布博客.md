@@ -29,7 +29,8 @@ gem install bundler
 
 ## 一些资源和小技巧
 
-- 中文jekyll文档：http://jekyll.com.cn/docs/
-- jekyll category和tag的区别：tag只能在头信息中添加，category除了在头信息中添加，还会根据路径自动引入，例如`\work\_post\some.md`形式会自动添加work作为category
+- 中文jekyll文档：http://jekyll.com.cn/docs/。
+- jekyll category和tag的区别：tag只能在头信息中添加，category除了在头信息中添加，还会根据路径自动引入，例如`\work\_post\some.md`形式会自动添加work作为category。
+- 推荐使用[多说](http://duoshuo.com/)搭建评论模块，对中文和中国社交网络支持很好。
 
 good luck~

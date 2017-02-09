@@ -8,16 +8,19 @@ tags: [linux, proxy]
 ## 安装
 
 安装python，v2.7和v3.5均可，推荐2.7。使用下面命令安装：
+
 ```
 pip install shadowsocks
 ```
 
 要运行代理服务，使用下面命令即可：
+
 ```
 sudo ssserver -p 222 -k password -m aes-256-cfb --user nobody -d start
 ```
 
 封装成脚本shadow.sh：
+
 ```shell
 #!/bin/zsh
 if test $# -ne 1
@@ -35,6 +38,7 @@ else
     fi
 fi
 ```
+
 使用`./shadow.sh start`运行代理服务， 使用`./shadow.sh stop`结束代理服务。
 
 ## 资源和小技巧

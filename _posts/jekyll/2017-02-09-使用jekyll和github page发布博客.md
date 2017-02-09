@@ -9,11 +9,13 @@ jekyll是一个静态网页产生引擎，github page后台使用的就是jekyll
 
 不要使用系统自带的ruby，很容易出现问题。
 os x使用homebrew安装ruby，重启终端。
+
 ```shell
 brew install ruby
 ```
 
 安装jekyll，和bundler:
+
 ```shell
 gem install jekyll
 gem install bundler

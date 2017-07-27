@@ -5,7 +5,7 @@ tags: [linux]
 
 Driver/library version mismatch 错误原因可能是升级了cuda，导致cuda与显卡核心驱动不匹配。
 
-注意到，我的/etc/source.list.d/长这样子
+注意到，我的/etc/apt/source.list.d/长这样子
 
 ```
 bazel.list                                    sbt.list

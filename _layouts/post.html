@@ -58,13 +58,32 @@
       {% endif %}
     </nav><!-- /.pagination -->
   
-<!-- UY BEGIN 友言评论框-->
+<!-- UY BEGIN 友言评论框
     <div class="entry-wrapper">
     <div id="uyan_frame"></div>
     <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
     </div>
-<!-- UY END -->
-
+UY END -->
+  
+<!-- 评论框 基于git issue -->
+<div class="entry-wrapper">
+  <div id="container"></div>
+  <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+  <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+  <script>
+  var gitment = new Gitment({
+    //id: '页面 ID', // 可选。默认为 location.href
+    owner: 'Ra1nyHouse',
+    repo: 'Ra1nyHouse.github.io',
+    oauth: {
+      client_id: '4991789a5cee4144f157',
+      client_secret: '7cf22c06663e0aba74c92057d097e154801eb0f8',
+    },
+  })
+  gitment.render('container')
+  </script>
+</div>
+  
   </article>
 </div><!-- /#main -->
 

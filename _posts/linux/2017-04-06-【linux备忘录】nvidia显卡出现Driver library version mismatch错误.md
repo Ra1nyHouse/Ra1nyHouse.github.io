@@ -31,3 +31,8 @@ sudo reboot
 To uninstall the CUDA Toolkit, run the uninstall script in /usr/local/cuda-8.0/bin
 To uninstall the NVIDIA Driver, run nvidia-uninstall
 ```
+
+其他注意事项：
+1. 可以使用dpkg -l | grep nvidia查看系统默认配置的相关包
+2. 使用dpkg --purge 删除上述出现的包
+3. 之后再安装.sh格式的安装包

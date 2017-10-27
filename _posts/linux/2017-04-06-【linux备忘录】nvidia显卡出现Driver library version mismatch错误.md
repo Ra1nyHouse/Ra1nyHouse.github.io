@@ -25,3 +25,9 @@ sudo apt-get autoremove
 sudo apt-get install cuda
 sudo reboot
 ```
+
+如果使用.sh脚本安装的cuda，在重新安装前遵照下面方法卸载原有的版本
+```
+To uninstall the CUDA Toolkit, run the uninstall script in /usr/local/cuda-8.0/bin
+To uninstall the NVIDIA Driver, run nvidia-uninstall
+```

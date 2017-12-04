@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [linux, homebrew]
+tags: [linux, python]
 ---
 官网下载源码包
 

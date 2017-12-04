@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [osx, homebrew]
+tags: [python]
 ---
 
 使用use命令即可，必须放在调用pyplot前面！

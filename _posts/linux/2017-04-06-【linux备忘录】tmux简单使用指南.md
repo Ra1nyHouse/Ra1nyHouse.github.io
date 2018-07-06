@@ -22,12 +22,14 @@ detach session使用`C-b d`
 
 解决emacs显示色彩异常：
 
-在 ~/.tmux.conf 文件中写入 set -g default-terminal "screen-256color" 即可。
-解决nvim alt（meta）不响应： set -s escape-time 0
+在 ~/.tmux.conf 文件中写入 `set -g default-terminal "screen-256color"` 即可。
+解决nvim alt（meta）不响应： `set -s escape-time 0`
 
+```
 # 支持鼠标
 # set-window-option -g mode-mouse on
 # setw -g aggressive-resize on
+```
 
 其他命令
 
